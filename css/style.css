@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Yuji+Boku&display=swap');
+body{
+    margin:0px;
+}
+.top-container{
+    margin:0px;
+    
+    text-align:center;
+    background-color:#EAF6F6;  
+}
+#head{
+    display: inline-block;
+    font-size:90px;
+    font-weight: normal;
+    color: #66BFBF;
+    line-height: 2;
+}
+#intro{
+    display: inline-block;
+    font-family:serif;
+    font-size:38px;
+    font-weight: normal;
+    padding-left: 295px;
+    color: #66BFBF;
+}
+#mountain{
+    width:700px;
+    height:555px;
+}
+.profile{
+    margin:100px 600px;
+}
+.profile > img{
+    width:124px;
+    padding:0px 0px 10px 253px;
+}
+.profile > h2{
+    text-align: center;
+    font-size:32px;
+    font-weight: normal;
+    color: #66BFBF;
+}
+.profile >p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+.middle-container > hr{
+    margin:0px auto;
+    display: none;
+}
+.skill-row{
+    margin:68px auto;    
+    width:50%;
+    overflow: hidden;
+}
+.skills{
+    text-align:center;
+}
+.skills > h2{
+    font-size:52px;
+    margin:0px auto;
+    font-weight: normal;
+    color: #66BFBF;
+    border-top-style: dotted;
+    border-width: 19px;
+    width: 16%;
+    padding-top: 64px;
+    border-color: #EAF6F6;
+}
+.skill-row > h3{
+    font-size:30px;
+    font-weight: normal;
+    color:#11999E;
+}
+.skill-row > p{
+    font-size: 24px;
+    font-weight: normal;
+}
+.skill-photo{
+    width:25%;
+    border-radius:100%;
+    float: left;
+}
+.contact-me, .bottom-container{
+    text-align:center;
+}
+.contact-me > h2{
+    color:#66BFBF;
+    font-size:52px;
+    border-top-style: dotted;
+    border-width: 19px;
+    width: 16%;
+    padding-top: 64px;
+    border-color: #EAF6F6;
+    margin: 0px auto;
+}
+.contact-me >p{
+    font-size: 24px;
+    font-weight: normal;
+}
+.contact-me > h3{
+    font-size:30px;
+    font-weight: normal;
+    color:#11999E;
+}
+
+/*------end of middle container---------------------------*/
+.btn{
+    text-decoration: none;
+    color:white;
+    border:1px solid white;
+    background-color: #3ac7c7;
+    font-size:30px;
+    border-radius:50px;
+    width:50px;
+    height: 10px;
+    
+}
+.btn:hover{
+    background-color: black;
+}
+.bottom-container{
+    margin-top:58px;
+    background-color:#66BFBF;
+    height:145px;
+    padding:60px 0px;
+}
+.footer-link{
+    color:#11999E;
+    font-size:25px;
+    padding:16px 20px;
+    text-decoration: none;
+}
+.bottom-container > p{
+    margin-top:60px;
+    font-size:18px;
+}
+.footer-link:hover{
+    color:whitesmoke;
+}
+.link-image{
+    width:30px;
+}
